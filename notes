@@ -1,0 +1,14 @@
+1. scrapy startproject quotetutorial
+
+cd quotetutorial
+scrapy crawl quotes
+
+cd amazon_books
+scrapy crawl amazon
+
+# scrapy shell: scrapy shell "site name"
+
+SAVE the data
+scrapy crawl quotes -o items.json
+scrapy crawl quotes -o items.csv
+scrapy crawl quotes -o items.xml
