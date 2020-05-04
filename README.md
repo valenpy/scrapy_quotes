@@ -4,15 +4,16 @@ For parsing data on your local machine create new virtual environment and execut
 
 `pip install -r requirements.txt`
 
-1. scrapy startproject quotetutorial<br />
+1. Project quotetutorial<br />
 
-`cd quotetutorial`
-`scrapy crawl quotes`
+`cd quotetutorial`<br />
+`scrapy crawl quotes`<br />
 
-`cd amazon_books`
-`scrapy crawl amazon`
+`cd amazon_books`<br />
+`scrapy crawl amazon`<br />
 
 2. SAVE the data<br />
-`scrapy crawl quotes -o items.json`
-`scrapy crawl quotes -o items.csv`
-`scrapy crawl quotes -o items.xml`
+
+`scrapy crawl quotes -o items.json`<br />
+`scrapy crawl quotes -o items.csv`<br />
+`scrapy crawl quotes -o items.xml`<br />
